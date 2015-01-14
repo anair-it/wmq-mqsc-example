@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.anair.maven</groupId>
+	<artifactId>wmq-mqsc-example</artifactId>
+	<packaging>jar</packaging>
+	<name>Example MQ Configuration Files</name>
+	<version>0.0.1</version>
+
+	<inceptionYear>2015</inceptionYear>
+
+	<developers>
+		<developer>
+			<name>Anoop Nair</name>
+			<email>anoopnair.it@gmail.com</email>
+		</developer>
+	</developers>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.anair.maven.mojo</groupId>
+				<artifactId>wmq-mqsc-mojo</artifactId>
+				<version>0.0.1</version>
+				<executions>
+					<execution>
+						<phase>compile</phase>
+						<goals>
+							<goal>mqsc</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mqsc>
+    <local>
+    	<DEFPSIST>YES</DEFPSIST>
+    </local>
+    
+    <dev>
+    	<DEFPSIST>NO</DEFPSIST>
+    </dev>
+    
+    <prod>
+    	<DEFPSIST>YES</DEFPSIST>
+    </prod>
+</mqsc>
